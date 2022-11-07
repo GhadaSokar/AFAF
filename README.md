@@ -14,6 +14,7 @@ python main.py
 ```
 
 Options 
+```
 * --benchmark: oprions (CIFAR10, CIFAR100, mix)
 * --class_order: the order of the classes (i.e., '0,1,2,3,4,5,6,7,8,9' for split-CIFAR10 and '1,3,7,9,5,4,0,2,6,8' for sim-CIFAR10)
 * --num_tasks: number of tasks in the sequence
@@ -26,6 +27,7 @@ Options
 * --reuse_prec_conv: percentage of candidate neurons from allocated ones. You can find similar arguments for FC and output.
 * --freezed_prec_conv: percentage of fixed neurons from allocated ones. You can find similar arguments for FC and output.
 * --density_level_conv: density level of connections between allocated neurons. You can find similar arguments for FC and output.
+```
 
 # Reference
 If you use this code, please cite our paper:
